@@ -1,0 +1,88 @@
+* { 
+  background: url(../img/bg2.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.offset-3 {
+	text-align: center;
+	color: white;
+}
+
+#sign {
+	font-size: 350%;
+	opacity: 0.85;
+	text-shadow: 2px 2px #ff0000;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+#click {
+	margin: 2% 47%;
+	background: brown;
+	border: 1px solid brown;
+	opacity: 0.7;
+	font-weight: bolder;
+	color: white;
+	border-radius: 4px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 4px;
+}
+
+#search {
+	margin: 2% 25%;
+	border: 1px solid #6b5415;
+	text-align: left;
+	background: #ac7b30;
+	opacity: 0.85;
+	width: 50%;
+	text-shadow: 2px 2px #6b5415;
+	border-radius: 4px;
+}
+
+#jhund {
+  color: #6b7b30;
+  text-align: center;
+  opacity: 0.85;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 70px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+#about {
+	color: white;
+	text-align: center;
+	width: 75%;
+	margin: 3% 12%;
+	font-size: 15px;
+	text-shadow: 2px 2px #ff0000;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+
+#image {
+	margin: 2% 41%;
+	opacity: 0.93;
+}
+
+#find {
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+}
+
+#find a {
+	color: white;
+	text-decoration: none;
+	color: #ff0000;
+}
+
+#find a:hover {
+	text-decoration: underline;
+	color: #ff0000;
+	cursor: pointer;
+}
+
+.gucci {
+	display: none;
+}
