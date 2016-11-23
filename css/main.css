@@ -1,4 +1,4 @@
-* { 
+body { 
   background: url(../img/bg2.jpg) no-repeat center center fixed; 
   background-size: cover;
 }
@@ -15,7 +15,7 @@
 	font-family: 'Cormorant Garamond', serif;
 }
 
-#click {
+#click, #check{
 	margin: 2% 47%;
 	background: brown;
 	border: 1px solid brown;
@@ -25,17 +25,22 @@
 	border-radius: 4px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 4px;
+	box-shadow: 4px 4px 5px #888;
+}
+
+#click:hover {
+	background-color: #ff0000
 }
 
 #search {
 	margin: 2% 25%;
 	border: 1px solid #6b5415;
 	text-align: left;
-	background: #ac7b30;
+	background: brown;
 	opacity: 0.85;
 	width: 50%;
-	text-shadow: 2px 2px #6b5415;
 	border-radius: 4px;
+	box-shadow: 6px 6px 5px #888;
 }
 
 #jhund {
@@ -69,15 +74,16 @@
 	color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 2px;
+	margin-top: 2%
 }
 
-#find a {
+#find span {
 	color: white;
 	text-decoration: none;
 	color: #ff0000;
 }
 
-#find a:hover {
+#find span:hover {
 	text-decoration: underline;
 	color: #ff0000;
 	cursor: pointer;
@@ -86,3 +92,43 @@
 .gucci {
 	display: none;
 }
+.drop {
+	margin: 0% 43%
+}
+#check {
+	margin: 1% 48% !important
+}
+#Sign {
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+#searcher {
+	display: all;
+}
+.searcher {
+	display: none
+}
+#checker {
+	opacity: 0
+}
+
+.checker {
+	opacity: 1 !important;
+	margin-top: 0 !important;
+}
+.dob {
+	margin: 1% 35%;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+section {
+	margin-bottom: 0 !important
+}
+
+

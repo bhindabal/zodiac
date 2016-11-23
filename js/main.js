@@ -86,6 +86,7 @@ function getInfo() {
 
 	var userInput = document.getElementById('search').value
 	var user = userInput.toUpperCase()
+	var getP = document.getElementById('Sign')
 
 	for (i = 0; i < singer.length; i++) {
 		if (user == singer[i].keyword) {
@@ -98,13 +99,156 @@ function getInfo() {
 			hello.appendChild(newP)
 			var find = document.getElementById('find')
 			find.className = "gucci"
+			getP.className = 'gucci'
 			// var newText = document.createTextNode('hello')
 			// newH1.appendChild(newText)
 			 // document.getElementById("jhund").textContent = singer[i].name
-			 document.getElementById("about").textContent = singer[i].about
+			 document.getElementById("about").innerHTML = singer[i].about
 			 document.getElementById("image").src = singer[i].image
-
+			 return
 		} 
-	} 
+	}
+	alert("'" + user + "'" + " isn't a Zodiac Sign, please try again!")
+	console.log(user)
+} 
+
+function jatt() {
+	var getSearcher = document.getElementById('searcher')
+	var getMonth = document.getElementById('month').value
+	var getDate = document.getElementById('date').value
+	var getP = document.getElementById('Sign')
+	var find = document.getElementById('find')
+	var getChecker = document.getElementById('checker')
+
+	if(getMonth == 1 && getDate >=20) {
+		getP.innerHTML = 'Your sign is: Aquarius';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 2  && getDate <= 18){
+		getP.textContent = 'Your sign is: Aquarius';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 2 && getDate >= 19){
+		getP.textContent = 'Your sign is: Pisces';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 3  && getDate <= 20 ){
+		getP.textContent = 'Your sign is: Pisces';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 3 && getDate >= 21){
+		getP.textContent = 'Your sign is: Aries';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 4 && getDate <= 19){
+		getP.textContent = 'Your sign is: Aries';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 4 && getDate >= 20){
+		getP.textContent = 'Your sign is: Taurus';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 5 && getDate <= 20){
+		getP.textContent = 'Your sign is: Taurus';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 5 && getDate >= 21){
+		getP.textContent = 'Your sign is: Gemini';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 6 && getDate <= 20){
+		getP.textContent = 'Your sign is: Gemini';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 6 && getDate >= 21){
+		getP.textContent = 'Your sign is: Cancer';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 7 && getDate <= 22){
+		getP.textContent = 'Your sign is: Cancer';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 7 && getDate >= 23){
+		getP.textContent = 'Your sign is: Leo';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 8 && getDate <= 22){
+		getP.textContent = 'Your sign is: Leo';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 8 && getDate >= 23){
+		getP.textContent = 'Your sign is: Virgo';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 9 && getDate <= 22){
+		getP.textContent = 'Your sign is: Virgo';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 9 && getDate >= 23){
+		getP.textContent = 'Your sign is: Libra';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 10 && getDate <= 22){
+		getP.textContent = 'Your sign is: Libra';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 10 && getDate >= 23){
+		getP.textContent = 'Your sign is: Scorpio';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 11 && getDate <= 21){
+		getP.textContent = 'Your sign is: Scorpio';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 11 && getDate >= 22){
+		getP.textContent = 'Your sign is: Sagittarius';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 12 && getDate <= 21){
+		getP.textContent = 'Your sign is: Sagittarius';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 12 && getDate >= 22){
+		getP.textContent = 'Your sign is: Capricorn';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else if (getMonth == 1 && getDate <= 19){
+		getP.textContent = 'Your sign is: Capricorn';
+		getSearcher.removeAttribute('class');
+		find.className = "gucci";
+		getChecker.className = 'gucci';
+	} else (alert('Month or Date is invalid'))
 }
 
+function checker() {
+	var getChecker = document.getElementById('checker')
+	getChecker.className = 'checker'
+	var getSearcher = document.getElementById('searcher')
+	getSearcher.className = 'searcher'
+	var find = document.getElementById('find')
+	find.className = "gucci";
+
+}
